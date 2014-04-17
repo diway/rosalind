@@ -1,4 +1,4 @@
-# fib numbers
+# Fibonacci numbers
 
 # Complex O(2^n)
 def fib1(n):
@@ -6,7 +6,7 @@ def fib1(n):
     if (n == 1): return 1
     return fib1(n-2) + fib1(n-1)
 
-# Complex O(n)
+# Complex O(n), n <= 25
 fib_nums = [None] * 26
 def fib2(n):
     if (n == 0): return 0
